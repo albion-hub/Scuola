@@ -1,0 +1,17 @@
+come configurare un server SSH su qualsiasi distro gnu/linux
+
+1)se non gia installa scaricare OpenSSH 
+	-sudo apt-get update
+	-sudo apt-get install openssh-server
+
+2)verificare che il sevizio shh sia attivo
+	-sudo systemctl status ssh
+	
+	se non attito attivarlo
+	-sudo systemctl start ssh
+
+	attivare il serve ssh automaticamente dopo il boot
+	-sudo systemctl enable ssh
+
+3) Configurazione del server SSH (opzionale)
+	Il file di configurazione di SSH si trova in /etc/ssh/sshd_config

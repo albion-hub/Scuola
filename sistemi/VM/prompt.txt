@@ -1,0 +1,1 @@
+PROMPT_COMMAND='PS1_CMD1=$(ip route get 1.1.1.1 | awk -F"src " '"'"'NR == 1{ split($2, a," ");print a[1]}'"'"')'; PS1='\[\e[34m\]Albion/\[\e[0m\]\u\[\e[34m\]@\[\e[0m\]\h[\[\e[34m\]${PS1_CMD1}\[\e[0m\]]{\[\e[34m\]\w\[\e[0m\]} \\$ '
