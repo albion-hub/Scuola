@@ -1,0 +1,49 @@
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Aggiungi spazio tra gli elementi */
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+.img2{
+    width: 50px;
+    height: 50px;
+}
+.frecce{
+    display: inline-block;
+}
+
+.frecceNo{
+    display: none;
+}
+
+#freciaS, #freciaD {
+    margin-top: 200px;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+}
