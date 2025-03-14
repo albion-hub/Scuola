@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="script.js"></script>
+
+    </head>
+    <body>
+        <div class="box0">
+            <div>
+                <label for="funzione">Tipo di funzione: </label>
+                <select id="funzione" name="funzione" onchange="dati()">
+                    <option value="none">...</option>
+                    <option value="retta">retta</option>
+                    <option value="parabola">parabola</option>
+                </select>
+            </div>
+            <div id="dati">
+        
+            </div>
+            <div id="pianoCartesiano"></div>
+        </div>
+    </body>
+</html>

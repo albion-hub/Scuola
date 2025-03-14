@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.box0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;     
+}
+
+#pianoCartesiano{
+    width: 500px;
+    height: 500px;
+}
+button{
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 1px,black,solid;
+    background-color: white;
+}
