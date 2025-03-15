@@ -1,0 +1,4 @@
+Eseguire un file di questo progetto in uno dei 2 modi:
+
+1 impostandone il nome in 'program' di launch.json
+2 in terminal digitando es: dart run main07_future.dart
