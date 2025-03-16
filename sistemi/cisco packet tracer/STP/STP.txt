@@ -1,0 +1,7 @@
+STP:
+sugli switch:
+	spanning-tree mode rapid-pvst (802.1w) piu'veloce
+	spanning-tree vl 1 root primary/secondary
+sugli host:
+	spanning-tree portfast 
+	spanning-tree bpduguard enable 

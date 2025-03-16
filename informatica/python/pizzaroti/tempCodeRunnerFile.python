@@ -1,0 +1,27 @@
+import hashlib
+
+def find_collision():
+    # Inizia con una stringa vuota
+    x = ""
+    while True:
+        # Calcola l'hash MD5 della stringa
+        md5_hash = hashlib.md5(x.encode()).hexdigest()
+        
+        # Verifica se i primi 24 caratteri dell'hash coincidono con la stringa
+        if x == md5_hash[:24]:
+            print(f"Trovato! Input: {x}, MD5: {md5_hash}")
+            break
+        
+        # Incrementa la stringa (ad esempio, aggiungi un carattere)
+        x = increment_string(x)
+
+def increment_string(s):
+    # Incrementa la stringa in modo sequenziale (es: "a" -> "b" -> ... -> "aa" -> "ab")
+    if not s:
+        return "a"
+    if s[-1] < "z":
+        return s[:-1] + chr(ord(s[-1]) + 1)
+    else:
+        return increment_string(s[:-1]) + "a"
+
+find_collision()
