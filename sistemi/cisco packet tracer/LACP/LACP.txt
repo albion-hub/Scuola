@@ -1,0 +1,15 @@
+Switch(config)# hostname Sw1
+
+Sw1(config)# interface range Fa0/1 - 2
+Sw1(config-if-range)# switchport mode trunk
+Sw1(config-if-range)# end
+Sw1# show interfaces trunk
+	
+Sw1(config)# interface range Fa0/1 – 2
+Sw1(config-if-range)# shutdown
+Sw1(config-if-range)# channel-group 1 mode desirable(PAgP)/active(LACP)
+Sw1(config-if-range)# no shutdown
+
+Sw1(config)# interface port-channel 1
+Sw1(config-if)# switchport mode trunk
+Sw1(config-if)# do show etherchannel summary
