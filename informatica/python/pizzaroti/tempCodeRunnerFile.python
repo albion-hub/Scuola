@@ -1,27 +1,26 @@
-import hashlib
+import pwn
+print(pwn.p32(0xb07c8b))
+exit()
+r = pwn.remote(host="software-18.challs.olicyber.it", port=13001)
 
-def find_collision():
-    # Inizia con una stringa vuota
-    x = ""
-    while True:
-        # Calcola l'hash MD5 della stringa
-        md5_hash = hashlib.md5(x.encode()).hexdigest()
-        
-        # Verifica se i primi 24 caratteri dell'hash coincidono con la stringa
-        if x == md5_hash[:24]:
-            print(f"Trovato! Input: {x}, MD5: {md5_hash}")
-            break
-        
-        # Incrementa la stringa (ad esempio, aggiungi un carattere)
-        x = increment_string(x)
+#pwn.context.log_level = 'debug'
 
-def increment_string(s):
-    # Incrementa la stringa in modo sequenziale (es: "a" -> "b" -> ... -> "aa" -> "ab")
-    if not s:
-        return "a"
-    if s[-1] < "z":
-        return s[:-1] + chr(ord(s[-1]) + 1)
-    else:
-        return increment_string(s[:-1]) + "a"
+r.recv()
+r.sendline()
 
-find_collision()
+for _ in range(2):
+    i = r.recvuntil(b"restituiscimi ")
+    num = r.recvuntil(b" ").decode()[:-1]
+    istruzione = r.recv().decode().strip()
+    print(i,num,istruzione)
+    if "packed" in istruzione and "32-bit" in istruzione:
+        s = pwn.p32(int(num,16))
+        print(s)
+        r.sendline(s)
+    elif "packed" in istruzione and "64-bit" in istruzione:
+        s = pwn.p64(int(num,16))
+        print(s)
+        r.sendline(s)
+
+r.interactive()
+r.close()
