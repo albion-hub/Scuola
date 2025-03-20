@@ -1,0 +1,11 @@
+body{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box0{
+    display: flex;
+    flex-direction: column;
+}
