@@ -1,21 +1,34 @@
 import tkinter 
 
+def milesToKm():
+    try:
+        labelNum.config(text=f"{round(float(numInput.get())*1.6,2)}")
+    except Exception as e:
+        print(f"errore di tipo {e}")
+
 winodw = tkinter.Tk()
 winodw.title("test")
-winodw.minsize(500,300)
+winodw.minsize(600,400)
 
-label = tkinter.Label(text="Test", font=("Arial", 100, "bold"))
-label.grid(column=0, row=0)
 
-inputStr = tkinter.Entry(width= 20)
-inputStr.grid(column=3, row=2)
+numInput = tkinter.Entry(width=30)
+numInput.insert(tkinter.END, string="0")
+numInput.grid(column=1,row=0)
 
-def bho():
-    label.config(text=inputStr.get())
+labelMiles = tkinter.Label(text="Miles")
+labelMiles.grid(column=2,row=0)
 
-b = tkinter.Button( text ="Hello", command = bho)
-b.grid(column=2, row=0)
+labelTo = tkinter.Label(text="is equal to")
+labelTo.grid(column=0,row=1)
 
-b2 = tkinter.Button( text ="Hello", command = bho)
-b2.grid(column=1, row=1)
+labelNum = tkinter.Label(text="0")
+labelNum.grid(column=1,row=1)
+
+labelK = tkinter.Label(text="Km")
+labelK.grid(column=2,row=1)
+
+b = tkinter.Button(text="Click Me", command=milesToKm)
+
+b.grid(column=1,row=2)
+
 winodw.mainloop()
