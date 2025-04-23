@@ -1,0 +1,50 @@
+import tkinter
+# ---------------------------- CONSTANTS ------------------------------- #
+PINK = "#e2979c"
+RED = "#e7305b"
+GREEN = "#9bdeac"
+YELLOW = "#f7f5dd"
+FONT_NAME = "Courier"
+WORK_MIN = 25
+SHORT_BREAK_MIN = 5
+LONG_BREAK_MIN = 20
+
+# ---------------------------- TIMER RESET ------------------------------- # 
+
+# ---------------------------- TIMER MECHANISM ------------------------------- # 
+
+# ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
+
+# ---------------------------- UI SETUP ------------------------------- #
+
+window = tkinter.Tk()
+window.title("timer")
+#sito per le palet di colori: color hunt 
+window.config(padx=100,pady=50, bg=YELLOW)
+
+labelTimer = tkinter.Label(text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME,35,"bold"))
+labelTimer.grid(row=0,column=1)
+
+canvas = tkinter.Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
+tomatoImg = tkinter.PhotoImage(file="./tomato.png")
+canvas.create_image(100,112, image=tomatoImg)
+canvas.create_text(100,130, text="00:00", fill="white", font=(FONT_NAME,35,"bold"))
+
+canvas.grid(row=1,column=1)
+
+buttonStart = tkinter.Button(text="Start",bg=YELLOW, highlightthickness=0)#command=pass)
+buttonStart.grid(row=2,column=0)
+
+buttonReset = tkinter.Button(text="Reset",bg=YELLOW, highlightthickness=0) #
+buttonReset.grid(row=2,column=2)
+
+labelCheck = tkinter.Label(text="✓", fg=GREEN, bg=YELLOW, font=(FONT_NAME,20,"bold"))
+labelCheck.grid(row=3,column=1)
+
+
+
+
+
+
+
+window.mainloop()
