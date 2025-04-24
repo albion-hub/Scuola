@@ -36,9 +36,8 @@ omino.addImmagine("immagini/HangMan_10.gif")
 omino.addImmagine("immagini/HangMan_LOSE.gif")
 omino.addImmagine("immagini/HangMan_WIN.gif")
 
-
 window.onload = async function() {
-    await fetch("/parole.json")  //potevo usare altre funzione che permettevano di aprire il file ma volevo usare il fetch :)
+    await fetch("127.0.0.1/parole.json")  //potevo usare altre funzione che permettevano di aprire il file ma volevo usare il fetch :)
         .then(function(response){
             return response.text()
         })
