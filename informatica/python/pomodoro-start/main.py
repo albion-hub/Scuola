@@ -1,4 +1,6 @@
 import tkinter
+import time
+import math
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"
@@ -12,8 +14,18 @@ LONG_BREAK_MIN = 20
 # ---------------------------- TIMER RESET ------------------------------- # 
 
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
+def startTime():
+    countdown(5)
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
+def countdown(count):
+
+    countMin = math.floor(count/60)
+    countSec = count % 60  
+
+    canvas.itemconfig(timerText, text=f"{str(countMin).rjust(2, '0')}:{str(countSec).rjust(2,'0')}")
+    if count > 0:
+        window.after(1000,countdown, count-1)
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -28,11 +40,11 @@ labelTimer.grid(row=0,column=1)
 canvas = tkinter.Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
 tomatoImg = tkinter.PhotoImage(file="./tomato.png")
 canvas.create_image(100,112, image=tomatoImg)
-canvas.create_text(100,130, text="00:00", fill="white", font=(FONT_NAME,35,"bold"))
+timerText = canvas.create_text(100,130, text="00:00", fill="white", font=(FONT_NAME,35,"bold"))
 
 canvas.grid(row=1,column=1)
 
-buttonStart = tkinter.Button(text="Start",bg=YELLOW, highlightthickness=0)#command=pass)
+buttonStart = tkinter.Button(text="Start",bg=YELLOW, highlightthickness=0, command=startTime)
 buttonStart.grid(row=2,column=0)
 
 buttonReset = tkinter.Button(text="Reset",bg=YELLOW, highlightthickness=0) #
@@ -43,8 +55,4 @@ labelCheck.grid(row=3,column=1)
 
 
 
-
-
-
-
-window.mainloop()
+window.mainloop() 
