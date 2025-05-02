@@ -1,0 +1,82 @@
+[
+	{
+		"classe": "3ainf",
+		"studenti": [
+			{
+				"utente": "mrossi",
+				"cognome": "Rossi",
+				"nome": "Mario",
+				"email": "mario.rossi@example.com",
+				"classe": "3ainf"
+			},
+			{
+				"utente": "lbianchi",
+				"cognome": "Bianchi",
+				"nome": "Luca",
+				"email": "luca.bianchi@example.com",
+				"classe": "3ainf"
+			},
+			{
+				"utente": "sgialli",
+				"cognome": "Gialli",
+				"nome": "Sara",
+				"email": "sara.gialli@example.com",
+				"classe": "3ainf"
+			},
+			{
+				"utente": "vverdi",
+				"cognome": "Verdi",
+				"nome": "Valentina",
+				"email": "valentina.verdi@example.com",
+				"classe": "3ainf"
+			},
+			{
+				"utente": "pnardo",
+				"cognome": "Nardo",
+				"nome": "Paolo",
+				"email": "paolo.nardo@example.com",
+				"classe": "3ainf"
+			}
+		]
+	},
+	{
+		"classe": "4cinf",
+		"studenti": [
+			{
+				"utente": "fmarini",
+				"cognome": "Marini",
+				"nome": "Francesca",
+				"email": "francesca.marini@example.com",
+				"classe": "4binf"
+			},
+			{
+				"utente": "lcosta",
+				"cognome": "Costa",
+				"nome": "Lorenzo",
+				"email": "lorenzo.costa@example.com",
+				"classe": "4binf"
+			},
+			{
+				"utente": "aricci",
+				"cognome": "Ricci",
+				"nome": "Alessia",
+				"email": "alessia.ricci@example.com",
+				"classe": "4binf"
+			},
+			{
+				"utente": "tbruno",
+				"cognome": "Bruno",
+				"nome": "Tommaso",
+				"email": "tommaso.bruno@example.com",
+				"classe": "4binf"
+			},
+			{
+				"utente": "cvilla",
+				"cognome": "Villa",
+				"nome": "Chiara",
+				"email": "chiara.villa@example.com",
+				"classe": "4binf"
+			}
+		]
+	}
+]
