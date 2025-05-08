@@ -1,0 +1,27 @@
+[
+    {
+        "idClasse": "1A",
+        "anno": "2024-2025",
+        "indirizzo": "Scientifico"
+    },
+    {
+        "idClasse": "2B",
+        "anno": "2024-2025",
+        "indirizzo": "Classico"
+    },
+    {
+        "idClasse": "3C",
+        "anno": "2024-2025",
+        "indirizzo": "Informatica"
+    },
+    {
+        "idClasse": "4D",
+        "anno": "2024-2025",
+        "indirizzo": "Linguistico"
+    },
+    {
+        "idClasse": "5E",
+        "anno": "2024-2025",
+        "indirizzo": "Economico"
+    }
+]

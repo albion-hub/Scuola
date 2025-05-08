@@ -1,0 +1,162 @@
+[
+    {
+        "utente": "mrossi",
+        "cognome": "Rossi",
+        "nome": "Mario",
+        "email": "mario.rossi@example.com",
+        "idClasse": "1A",
+        "dataNascita": "2008-04-15"
+    },
+    {
+        "utente": "lbianchi",
+        "cognome": "Bianchi",
+        "nome": "Luca",
+        "email": "luca.bianchi@example.com",
+        "idClasse": "1A",
+        "dataNascita": "2008-07-21"
+    },
+    {
+        "utente": "gverdi",
+        "cognome": "Verdi",
+        "nome": "Giulia",
+        "email": "giulia.verdi@example.com",
+        "idClasse": "1A",
+        "dataNascita": "2008-02-12"
+    },
+    {
+        "utente": "acaruso",
+        "cognome": "Caruso",
+        "nome": "Andrea",
+        "email": "andrea.caruso@example.com",
+        "idClasse": "1A",
+        "dataNascita": "2008-11-03"
+    },
+    {
+        "utente": "sgialli",
+        "cognome": "Gialli",
+        "nome": "Sara",
+        "email": "sara.gialli@example.com",
+        "idClasse": "2B",
+        "dataNascita": "2007-05-09"
+    },
+    {
+        "utente": "ppellegrini",
+        "cognome": "Pellegrini",
+        "nome": "Paolo",
+        "email": "paolo.pellegrini@example.com",
+        "idClasse": "2B",
+        "dataNascita": "2007-10-22"
+    },
+    {
+        "utente": "mbruno",
+        "cognome": "Bruno",
+        "nome": "Martina",
+        "email": "martina.bruno@example.com",
+        "idClasse": "2B",
+        "dataNascita": "2007-01-18"
+    },
+    {
+        "utente": "fdonati",
+        "cognome": "Donati",
+        "nome": "Francesca",
+        "email": "francesca.donati@example.com",
+        "idClasse": "2B",
+        "dataNascita": "2007-03-05"
+    },
+    {
+        "utente": "vverdi",
+        "cognome": "Verdi",
+        "nome": "Valentina",
+        "email": "valentina.verdi@example.com",
+        "idClasse": "3C",
+        "dataNascita": "2006-08-14"
+    },
+    {
+        "utente": "tbruno",
+        "cognome": "Bruno",
+        "nome": "Tommaso",
+        "email": "tommaso.bruno@example.com",
+        "idClasse": "3C",
+        "dataNascita": "2006-09-30"
+    },
+    {
+        "utente": "cmancini",
+        "cognome": "Mancini",
+        "nome": "Carla",
+        "email": "carla.mancini@example.com",
+        "idClasse": "3C",
+        "dataNascita": "2006-12-11"
+    },
+    {
+        "utente": "psantini",
+        "cognome": "Santini",
+        "nome": "Pietro",
+        "email": "pietro.santini@example.com",
+        "idClasse": "3C",
+        "dataNascita": "2006-04-07"
+    },
+    {
+        "utente": "amartini",
+        "cognome": "Martini",
+        "nome": "Alessandro",
+        "email": "alessandro.martini@example.com",
+        "idClasse": "4D",
+        "dataNascita": "2005-02-28"
+    },
+    {
+        "utente": "vferrari",
+        "cognome": "Ferrari",
+        "nome": "Valeria",
+        "email": "valeria.ferrari@example.com",
+        "idClasse": "4D",
+        "dataNascita": "2005-06-15"
+    },
+    {
+        "utente": "gsereni",
+        "cognome": "Sereni",
+        "nome": "Giovanni",
+        "email": "giovanni.sereni@example.com",
+        "idClasse": "4D",
+        "dataNascita": "2005-09-04"
+    },
+    {
+        "utente": "mmoretti",
+        "cognome": "Moretti",
+        "nome": "Martina",
+        "email": "martina.moretti@example.com",
+        "idClasse": "4D",
+        "dataNascita": "2005-12-20"
+    },
+    {
+        "utente": "cvilla",
+        "cognome": "Villa",
+        "nome": "Chiara",
+        "email": "chiara.villa@example.com",
+        "idClasse": "5E",
+        "dataNascita": "2004-01-16"
+    },
+    {
+        "utente": "fgori",
+        "cognome": "Gori",
+        "nome": "Fabio",
+        "email": "fabio.gori@example.com",
+        "idClasse": "5E",
+        "dataNascita": "2004-05-29"
+    },
+    {
+        "utente": "aconti",
+        "cognome": "Conti",
+        "nome": "Alessia",
+        "email": "alessia.conti@example.com",
+        "idClasse": "5E",
+        "dataNascita": "2004-09-10"
+    },
+    {
+        "utente": "nbarbieri",
+        "cognome": "Barbieri",
+        "nome": "Nicola",
+        "email": "nicola.barbieri@example.com",
+        "idClasse": "5E",
+        "dataNascita": "2004-11-25"
+    }
+]
