@@ -2,6 +2,7 @@
  * https://www.baeldung.com/java-org-json
  */
 import java.util.Iterator;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -41,7 +42,11 @@ public class Main {
         
         JSONObject obj = jsonObj.getJSONObject("pageInfo");
         System.out.println(obj.get("logo"));
-
+        
+        System.out.println(jsonObj); 
+        
+        
+        
         JSONArray posts = jsonObj.getJSONArray("posts");
 
 		//******* */ 2 modi per scorrere JSONArray
