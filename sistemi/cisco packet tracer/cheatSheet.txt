@@ -1,0 +1,62 @@
+LACP:
+
+	Switch(config)# hostname Sw1
+
+	Sw1(config)# interface range Fa0/1 - 2
+	Sw1(config-if-range)# switchport mode trunk
+	Sw1(config-if-range)# end
+	Sw1# show interfaces trunk
+		
+	Sw1(config)# interface range Fa0/1 – 2
+	Sw1(config-if-range)# shutdown
+	Sw1(config-if-range)# channel-group 1 mode desirable(PAgP)/active(LACP)
+	Sw1(config-if-range)# no shutdown
+
+	Sw1(config)# interface port-channel 1
+	Sw1(config-if)# switchport mode trunk
+	Sw1(config-if)# do show etherchannel summary
+
+STP:
+	sugli switch:
+		spanning-tree mode rapid-pvst (802.1w) piu'veloce
+		spanning-tree vl 1 root primary/secondary
+	sugli host:
+		spanning-tree portfast 
+		spanning-tree bpduguard enable 
+		
+VLAN:
+	DB:
+		(config)# vlan 10
+		(config-vlan)#name VOIP
+		(config-vlan)#exit
+	
+	ACCESS:
+		(config)# interface fa0/1
+		(config-if)#switchport access vlan 10
+		(config-if)#switchport mode access
+		(config-if)#end
+		
+	TRUNK:
+		(config)# interface fa0/1
+		(config-if)#switchport mode trunk
+		#(config-if)#switchport trunk allowed vlan all
+		#(config-if)#switchport trunk allowed vlan except 30
+		(config-if)#end
+
+	ROUTER:
+		Router(config)#interface fa0/0
+		Router(config-if)#no ip address
+		Router(config-if)#no shutdown
+		Router(config-if)#exit
+		
+		Router(config)#interface fa0/0.10
+		Router(config-subif)#encapsulation dot1q 10
+		Router(config-subif)#ip address 192.168.10.254 255.255.255.0
+		
+RIP:
+	Router(config)#router rip
+	Router(config-router)#version 2
+	Router(config-router)#no auto-summary 
+	Router(config-router)#network 10.0.0.0    (subnet LAN)
+	Router(config-router)#default-information originate (default route)
+	Router(config-router)#passive-interface fa1/0
