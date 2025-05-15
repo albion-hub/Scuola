@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- add mocha css, to show results -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+  <!-- add mocha framework code -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+  <script>
+    mocha.setup('bdd'); // minimal setup
+  </script>
+  <!-- add chai -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+  <script>
+    // chai has a lot of stuff, let's make assert global
+    let assert = chai.assert;
+  </script>
+</head>
+
+<body>
+
+  <script src="{{ url_for('static',filename='BinomialExpansion.js')}}"></script>
+
+  <!-- the script with tests (describe, it...) -->
+
+  <!-- the element with id="mocha" will contain test results -->
+  <div id="mocha"></div>
+
+  <!-- run tests! -->
+  <script>
+    mocha.setup("bdd");
+    fetch("http://127.0.0.1:5000/api/test")
+      .then(response => response.json())
+      .then(data => {
+        const testCases = Object.values(data); 
+        
+        describe("binomio", function () {
+          testCases.forEach((testInput, i) => {
+            it(`Test #${i + 1}: expands ${testInput}`, async function () {
+              const response = await fetch("http://127.0.0.1:5000/api/solve/binomio", {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ "binomio": testInput })
+              });
+              const expected = await response.json();
+              console.log(testInput,expected)
+              assert.equal(expand(testInput), expected["solve"]);
+            });
+          });
+        });
+
+        mocha.run();
+      })
+      .catch(error => {
+        console.error("Failed to load test cases:", error);
+      });
+  </script>
+
+</body>
+
+</html>
