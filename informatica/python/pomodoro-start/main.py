@@ -12,24 +12,31 @@ SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 
 reps = 1 
+timer = None
 # ---------------------------- TIMER RESET ------------------------------- # 
+def reset():
+    window.after_cancel(timer)
+    canvas.itemconfig(timerText, text="00:00")
+    labelTimer.config(text="Timer")
+    labelCheck.config(text="")
+    global reps
+    reps = 0
+
 
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
 def startTime():
     global reps
 
     if reps%8 == 0:
-        countdown(LONG_BREAK_MIN)
+        countdown(LONG_BREAK_MIN*60)
         labelTimer.config(text="long break", fg=PINK)
     elif reps%2 == 0:
-        countdown(SHORT_BREAK_MIN)
+        countdown(SHORT_BREAK_MIN*60)
         labelTimer.config(text="short break", fg=PINK)
     else:
-        countdown(WORK_MIN)
+        countdown(WORK_MIN*60)
         labelTimer.config(text="WORK", fg=RED)
     reps += 1
-
-
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 def countdown(count):
@@ -39,9 +46,13 @@ def countdown(count):
 
     canvas.itemconfig(timerText, text=f"{str(countMin).rjust(2, '0')}:{str(countSec).rjust(2,'0')}")
     if count > 0:
-        window.after(1000,countdown, count-1)
+        global timer
+        timer = window.after(1000,countdown, count-1)
     else:
         startTime()
+        mark = "✓" * (reps // 2)
+        labelCheck.config(text=mark)
+
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -63,12 +74,11 @@ canvas.grid(row=1,column=1)
 buttonStart = tkinter.Button(text="Start",bg=YELLOW, highlightthickness=0, command=startTime)
 buttonStart.grid(row=2,column=0)
 
-buttonReset = tkinter.Button(text="Reset",bg=YELLOW, highlightthickness=0) #
+buttonReset = tkinter.Button(text="Reset",bg=YELLOW, highlightthickness=0, command=reset) #
 buttonReset.grid(row=2,column=2)
 
-labelCheck = tkinter.Label(text="✓", fg=GREEN, bg=YELLOW, font=(FONT_NAME,20,"bold"))
+labelCheck = tkinter.Label(fg=GREEN, bg=YELLOW, font=(FONT_NAME,20,"bold"))
 labelCheck.grid(row=3,column=1)
-
 
 
 window.mainloop() 
