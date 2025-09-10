@@ -5,6 +5,11 @@ window = Tk()
 window.title("Widget Examples")
 window.minsize(width=500, height=500)
 
+#configurazione colone
+window.columnconfigure(0, weight=1)  # Colonna sinistra (vuota)
+window.columnconfigure(1, weight=2)  # Colonna centrale (elementi)
+window.columnconfigure(2, weight=1)  # Colonna destra (vuota)
+
 #Labels
 label = Label(text="This is old text")
 label.config(text="This is new text")
@@ -16,6 +21,7 @@ def action():
 
 #calls action() when pressed
 button = Button(text="Click Me", command=action)
+button.cget("text") #prende il testo del bottone
 button.pack()
 
 #Entries
@@ -82,4 +88,13 @@ for item in fruits:
     listbox.insert(fruits.index(item), item)
 listbox.bind("<<ListboxSelect>>", listbox_used)
 listbox.pack()
+
+# grid(column=1,row=0)
+
+# bg (o background) per il colore di sfondo.
+# fg (o foreground) per il colore del testo.
+
+# Imposta una tupla (nome_font, dimensione, stile opzionale)
+# button_font = ("Arial", 20, "bold")  # Puoi anche omettere "bold"
+
 window.mainloop()

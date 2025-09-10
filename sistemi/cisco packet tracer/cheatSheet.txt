@@ -59,4 +59,4 @@ RIP:
 	Router(config-router)#no auto-summary 
 	Router(config-router)#network 10.0.0.0    (subnet LAN)
 	Router(config-router)#default-information originate (default route)
-	Router(config-router)#passive-interface fa1/0
+	Router(config-router)#passive-interface fa1/0					-> per gli host che non devono ricevere i pacchetti rip
