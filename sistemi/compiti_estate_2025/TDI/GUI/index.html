@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="TDI"></div>
+
+        <!-- Bottone per mostrare la riga -->
+        <div class="input-row-container">
+            <button onclick="view_camp_TDI()">Aggiungi Riga</button>
+            <div class="input-row" id="input-row">
+                <div class="input-field">
+                    <label for="netid">netid</label>
+                    <input type="text" id="netid">
+                </div>
+                <div class="input-field">
+                    <label for="mask">Mask</label>
+                    <input type="text" id="mask">
+                </div>
+                <div class="input-field">
+                    <label for="gateway">Gateway</label>
+                    <input type="text" id="gateway">
+                </div>
+                <div class="input-field">
+                    <label for="interface">Interfaccia</label>
+                    <input type="text" id="interface">
+                </div>
+                <div class="input-field">
+                    <label for="metric">Metrica</label>
+                    <input type="text" id="metric">
+                </div>
+                <button onclick="invio()">Invia</button>
+            </div>
+        </div>
+        
+        <div class="input-row-container">
+            <button onclick="view_camp_ip()">instrada IP</button>
+            <div class="input-ip" id="input-ip">
+                <div class="input-field">
+                    <label for="ip">IP da instradare</label>
+                    <input type="text" id="ip">
+                </div>
+                <button onclick="invio_ip()">Invia</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
