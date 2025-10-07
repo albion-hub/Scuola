@@ -21,6 +21,10 @@ function requestHandler(request,response) {
       response.writeHead(200,{'Content-Type':'application/json'});
       response.end(`{"ciao":"da json"}`)
     }
+    else{
+      response.statusCode = 400
+      response.end("Error")
+    }
 }
 
 const server=http.createServer(requestHandler);
