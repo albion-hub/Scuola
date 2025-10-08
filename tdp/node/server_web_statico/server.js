@@ -9,7 +9,11 @@ async function readFile(path, statusError, statusCode, response) {
         if (error) {
             response.writeHead(statusError, { "Content-Type": "text/plain" });
             response.end("Errore interno del server");
-        } else {
+        } 
+        else if(path === "./Css/style.css"){
+            response.writeHead(statusCode, { "Content-Type": "text/css" });
+            response.end(data, "utf8");
+        }else {
             response.writeHead(statusCode, { "Content-Type": "text/html" });
             response.end(data, "utf8");
         }
@@ -28,16 +32,8 @@ function requestHandler(request,response){
         case "/pagina2":
             readFile("./public/pagina2.html", 500,200,response)
             break
-        case "/stile.css":
-            fs.readFile("./Css/stile.css", function (error, data) {
-            if (error) {
-                response.writeHead(500, { "Content-Type": "text/plain" });
-                response.end("Errore interno del server");
-            } else {
-                response.writeHead(200, { "Content-Type": "text/css" });
-                response.end(data, "utf8");
-            }
-        });
+        case "/style.css":
+            readFile("./Css/style.css", 500,200,response)
             break
         default:
             response.end("Error");
