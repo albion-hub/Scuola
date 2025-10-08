@@ -52,9 +52,21 @@ durante il three hand shake viene dicisa la sua dimesione in base al hardware. -
 Sequence number: sicrioniza la trasmisione
 permette di riconoscere i diversi flusi tcp 
 
+piggybacking:
+full duplex
+efficente -> meno pacchetti
+come funziona ->  
+
 - #### *sliding window*
 campo window size 
 slinding: ARQ
 definito durante *handShake* il max viene definito in base al *buffer del NIC*
 varia per gestire la *congestione*
 "burst"
+
+senza no affidabilità 
+NACK nel caso del TCP no uttiliza i time out
+ACK cumulativo 
+
+implementazione: se un paccchetto durante la trasmissione dei burst dei pacchetti viene perso il mittente tiene in un buffer tutti gli altri pacchetti per poi mandare l'ACK del pacchheto ricevuto, una volta richevuto mannda ack nel ultimo paccheto del burst
+

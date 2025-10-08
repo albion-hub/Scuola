@@ -1,0 +1,7 @@
+Titolo: Introduzione alla Programmazione
+
+La programmazione è il processo di creazione di software.
+Usiamo linguaggi come Python, JavaScript e C++ per scrivere istruzioni
+che un computer può eseguire.
+
+Iniziare è più semplice di quanto sembri!
