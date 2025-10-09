@@ -24,7 +24,7 @@ function requestHandler(request,response){
     console.log("In comes a request to: "+request.url);
     switch (request.url) {
         case "/":
-             readFile("./public/index.html", 500,200,response)
+            readFile("./public/index.html", 500,200,response)
             break;
         case "/pagina1":
             readFile("./public/pagina1.html", 500,200,response)
