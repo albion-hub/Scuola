@@ -1,0 +1,16 @@
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\bin\Debug\net8.0-windows\FilmDirectorManager.exe
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\bin\Debug\net8.0-windows\FilmDirectorManager.deps.json
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\bin\Debug\net8.0-windows\FilmDirectorManager.runtimeconfig.json
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\bin\Debug\net8.0-windows\FilmDirectorManager.dll
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\bin\Debug\net8.0-windows\FilmDirectorManager.pdb
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\obj\Debug\net8.0-windows\FilmDirectorManager.Film_manager.resources
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\obj\Debug\net8.0-windows\FilmDirectorManager.csproj.GenerateResource.cache
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\obj\Debug\net8.0-windows\FilmDirectorManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\obj\Debug\net8.0-windows\FilmDirectorManager.AssemblyInfoInputs.cache
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\obj\Debug\net8.0-windows\FilmDirectorManager.AssemblyInfo.cs
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\obj\Debug\net8.0-windows\FilmDirectorManager.csproj.CoreCompileInputs.cache
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\obj\Debug\net8.0-windows\FilmDirectorManager.dll
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\obj\Debug\net8.0-windows\refint\FilmDirectorManager.dll
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\obj\Debug\net8.0-windows\FilmDirectorManager.pdb
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\obj\Debug\net8.0-windows\FilmDirectorManager.genruntimeconfig.cache
+C:\Users\sshabani\Desktop\FilmDirectorManager\FilmDirectorManager\FilmDirectorManager\obj\Debug\net8.0-windows\ref\FilmDirectorManager.dll

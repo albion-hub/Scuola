@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sshabani\\Desktop\\FilmDirectorManager\\FilmDirectorManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE611007-30F6-469B-B478-04DB7371F9CF}|FilmDirectorManager\\FilmDirectorManager.csproj|c:\\users\\sshabani\\desktop\\filmdirectormanager\\filmdirectormanager\\filmdirectormanager\\film_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE611007-30F6-469B-B478-04DB7371F9CF}|FilmDirectorManager\\FilmDirectorManager.csproj|solutionrelative:filmdirectormanager\\film_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE611007-30F6-469B-B478-04DB7371F9CF}|FilmDirectorManager\\FilmDirectorManager.csproj|c:\\users\\sshabani\\desktop\\filmdirectormanager\\filmdirectormanager\\filmdirectormanager\\film_manager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE611007-30F6-469B-B478-04DB7371F9CF}|FilmDirectorManager\\FilmDirectorManager.csproj|solutionrelative:filmdirectormanager\\film_manager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE611007-30F6-469B-B478-04DB7371F9CF}|FilmDirectorManager\\FilmDirectorManager.csproj|c:\\users\\sshabani\\desktop\\filmdirectormanager\\filmdirectormanager\\filmdirectormanager\\regista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE611007-30F6-469B-B478-04DB7371F9CF}|FilmDirectorManager\\FilmDirectorManager.csproj|solutionrelative:filmdirectormanager\\regista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE611007-30F6-469B-B478-04DB7371F9CF}|FilmDirectorManager\\FilmDirectorManager.csproj|C:\\Users\\sshabani\\Desktop\\FilmDirectorManager\\FilmDirectorManager\\filmdirectormanager\\film_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE611007-30F6-469B-B478-04DB7371F9CF}|FilmDirectorManager\\FilmDirectorManager.csproj|solutionrelative:filmdirectormanager\\film_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE611007-30F6-469B-B478-04DB7371F9CF}|FilmDirectorManager\\FilmDirectorManager.csproj|c:\\users\\sshabani\\desktop\\filmdirectormanager\\filmdirectormanager\\filmdirectormanager\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE611007-30F6-469B-B478-04DB7371F9CF}|FilmDirectorManager\\FilmDirectorManager.csproj|solutionrelative:filmdirectormanager\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Film_manager.cs",
+              "DocumentMoniker": "C:\\Users\\sshabani\\Desktop\\FilmDirectorManager\\FilmDirectorManager\\FilmDirectorManager\\Film_manager.cs",
+              "RelativeDocumentMoniker": "FilmDirectorManager\\Film_manager.cs",
+              "ToolTip": "C:\\Users\\sshabani\\Desktop\\FilmDirectorManager\\FilmDirectorManager\\FilmDirectorManager\\Film_manager.cs",
+              "RelativeToolTip": "FilmDirectorManager\\Film_manager.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:31:11.756Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Film_manager.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sshabani\\Desktop\\FilmDirectorManager\\FilmDirectorManager\\FilmDirectorManager\\Film_manager.Designer.cs",
+              "RelativeDocumentMoniker": "FilmDirectorManager\\Film_manager.Designer.cs",
+              "ToolTip": "C:\\Users\\sshabani\\Desktop\\FilmDirectorManager\\FilmDirectorManager\\FilmDirectorManager\\Film_manager.Designer.cs",
+              "RelativeToolTip": "FilmDirectorManager\\Film_manager.Designer.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:43:57.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\Users\\sshabani\\Desktop\\FilmDirectorManager\\FilmDirectorManager\\FilmDirectorManager\\Film.cs",
+              "RelativeDocumentMoniker": "FilmDirectorManager\\Film.cs",
+              "ToolTip": "C:\\Users\\sshabani\\Desktop\\FilmDirectorManager\\FilmDirectorManager\\FilmDirectorManager\\Film.cs",
+              "RelativeToolTip": "FilmDirectorManager\\Film.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:13:55.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Regista.cs",
+              "DocumentMoniker": "C:\\Users\\sshabani\\Desktop\\FilmDirectorManager\\FilmDirectorManager\\FilmDirectorManager\\Regista.cs",
+              "RelativeDocumentMoniker": "FilmDirectorManager\\Regista.cs",
+              "ToolTip": "C:\\Users\\sshabani\\Desktop\\FilmDirectorManager\\FilmDirectorManager\\FilmDirectorManager\\Regista.cs",
+              "RelativeToolTip": "FilmDirectorManager\\Regista.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:09:27.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Film_manager.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\sshabani\\Desktop\\FilmDirectorManager\\FilmDirectorManager\\FilmDirectorManager\\Film_manager.cs",
+              "RelativeDocumentMoniker": "FilmDirectorManager\\Film_manager.cs",
+              "ToolTip": "C:\\Users\\sshabani\\Desktop\\FilmDirectorManager\\FilmDirectorManager\\FilmDirectorManager\\Film_manager.cs [Progettazione]",
+              "RelativeToolTip": "FilmDirectorManager\\Film_manager.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:08:22.344Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
