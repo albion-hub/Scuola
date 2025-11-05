@@ -92,14 +92,14 @@ void *threadClient(void *threadArgs){
     recvBuff[0] = 0;
     while (recvBuff[0] != 'x')
     {
-        recvBuffSize = recv(sockC, recvBuff, RCVBUFSIZE, 0); 
+        recvBuffSize = recv(sockC, recvBuff, RCVBUFSIZE-1, 0); 
         if(recvBuffSize > 0){
             recvBuff[recvBuffSize] = 0;
             send(sockC, recvBuff, recvBuffSize, 0);
             printf("\n\tClient (remote port %d). Ricevuto e risposto: %s ", remotePort,recvBuff);
         }
     }
-    close(sockC);  //per windows close socket
+    close(sockC);  //per windows closesocket
     printf("\n\tClient (remote port %d). Chiuso.", remotePort);
     return(NULL); 
 }

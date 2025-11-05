@@ -70,3 +70,7 @@ ACK cumulativo
 
 implementazione: se un paccchetto durante la trasmissione dei burst dei pacchetti viene perso il mittente tiene in un buffer tutti gli altri pacchetti per poi mandare l'ACK del pacchheto ricevuto, una volta richevuto mannda ack nel ultimo paccheto del burst
 
+
+### framentazione
+la framentazione avviene solo al livello 3. 
+relazione con il window sliding:

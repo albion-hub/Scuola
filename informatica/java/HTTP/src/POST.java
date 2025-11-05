@@ -80,7 +80,6 @@ public class POST {
 	                while ((responseLine = br.readLine()) != null) {
 	                    response.append(responseLine.trim()); // Rimuove eventuali spazi vuoti
 	                }
-	            
 			}
 			catch (Exception e) {
 	            // TODO: handle exception
