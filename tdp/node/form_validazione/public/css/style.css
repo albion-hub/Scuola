@@ -1,0 +1,96 @@
+/* Impostazioni di base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenitore principale */
+.container {
+  max-width: 500px;
+  background: #fff;
+  margin: 60px auto;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Titolo */
+h1 {
+  text-align: center;
+  color: #2d3436;
+  margin-bottom: 20px;
+}
+
+/* Etichette e input */
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: 600;
+  color: #2d3436;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #b2bec3;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus {
+  border-color: #0984e3;
+  outline: none;
+}
+
+/* Fieldset */
+fieldset {
+  margin-top: 15px;
+  border: 1px solid #dfe6e9;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+legend {
+  font-weight: 700;
+  color: #636e72;
+}
+
+/* Checkbox e radio */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Pulsante */
+button {
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #0984e3;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #74b9ff;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    margin: 30px 10px;
+    padding: 20px;
+  }
+}

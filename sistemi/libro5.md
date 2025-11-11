@@ -1,8 +1,7 @@
 # Trasporto
 
 - end to end:
-    destinatari finali (processi in esecuzione) tramite la porta (1-1024 porte note, )
-    
+    destinatari finali (processi in esecuzione) tramite la porta (1-1024 porte note, o efimere)
     tutto quello che sta sotto il livello 4 non e visibile 
 
 - pacchetti denominati *segmenti*
@@ -56,6 +55,18 @@ piggybacking:
 full duplex
 efficente -> meno pacchetti
 come funziona ->  
+
+- ### piggybacking
+Il piggybacking è una tecnica utilizzata nel livello di trasporto del modello ISO/OSI (ad esempio nel protocollo TCP) per ottimizzare la comunicazione bidirezionale e ridurre la congestione della rete.
+
+Quando un host riceve un pacchetto dati, non invia immediatamente l’ACK.
+Attende per un breve intervallo di tempo (pochi millisecondi) per verificare se deve anche trasmettere dei propri dati nella direzione opposta.
+
+Se l’host ha dati da inviare, accoda (o “attacca”) l’ACK al pacchetto dei propri dati.
+In questo modo, un unico pacchetto contiene sia i dati dell’host che la conferma di ricezione per i dati precedenti ricevuti.
+→ Questo è il vero significato di piggybacking (“andare a cavallo”).
+
+Se invece l’host non ha dati da inviare entro il tempo stabilito, allora invia un ACK separato, per non ritardare troppo la conferma e mantenere efficiente la comunicazione.
 
 - #### *sliding window*
 campo window size 

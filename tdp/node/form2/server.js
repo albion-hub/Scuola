@@ -40,6 +40,7 @@ async function readFileSafe(filePath, response) {
 // Funzione principale di gestione richieste
 async function requestHandler(request, response) {
     console.log("In comes a request to:", request.url);
+    console.log("In comes a request to:", request.method);
     let oggettourl = url.parse(request.url, true);
     const path = oggettourl.pathname;
 
@@ -48,19 +49,25 @@ async function requestHandler(request, response) {
         await readFileSafe(allowedURLPaths[path], response);
     } 
     else if(path == "/dati"){
-        
-        const nome = oggettourl.query.nome || "ospite";
-        const email = oggettourl.query.email || "";
-        const password = oggettourl.query.password || "";
-        const genere = oggettourl.query.genere || "";
-        const interessi = oggettourl.query.interessi || "";
-        const citta = oggettourl.query.citta || "";
-        const lingue  = oggettourl.query.lingue || "";
-        const note  = oggettourl.query.note || "";
+        if(request.method == "GET"){
+            const nome = oggettourl.query.nome || "ospite";
+            const email = oggettourl.query.email || "";
+            const password = oggettourl.query.password || "";
+            const genere = oggettourl.query.genere || "";
+            const interessi = oggettourl.query.interessi || "";
+            const citta = oggettourl.query.citta || "";
+            const lingue  = oggettourl.query.lingue || "";
+            const note  = oggettourl.query.note || "";
+    
+            console.log(`nome: ${nome}\ncognome: ${email}\npassword: ${password}\ngenere: ${genere}\ninteressi: ${interessi}\ncittà: ${citta}\nlingue: ${lingue}\nnote: ${note}`)
+            response.writeHead(200, { "Content-Type": "text/html" });
+            response.end("<h1>dati inviati :)</h1>");
+        }
+        else{
+            response.writeHead(404, { "Content-Type": "text/html" });
+            response.end("<h1>metodo non autorizato :(</h1>");
+        }
 
-        console.log(`nome: ${nome}\ncognome: ${email}\npassword: ${password}\ngenere: ${genere}\ninteressi: ${interessi}\ncittà: ${citta}\nlingue: ${lingue}\nnote: ${note}`)
-        response.writeHead(200, { "Content-Type": "text/html" });
-        response.end("<h1>dati inviati :)</h1>");
     }else {
         response.writeHead(404, { "Content-Type": "text/plain" });
         response.end("Risorsa non trovata");
