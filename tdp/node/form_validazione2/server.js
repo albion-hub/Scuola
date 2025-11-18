@@ -23,6 +23,18 @@ const mimeTypes = {
     ".svg": "image/svg+xml",
 };
 
+var html = `<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo Utente</title>
+</head>
+<body>
+  <main class="container">
+    <h1>Modulo Informazioni Utente</h1>
+    <form action="/dati" method="get">`
+
 async function requestHandler(request, response) {
     console.log("In comes a request to:", request.url);
     let oggettourl = url.parse(request.url, true);
@@ -49,7 +61,6 @@ async function requestHandler(request, response) {
             const stato_civile = oggettourl.query.stato_civile;
             const hobby = oggettourl.query.hobby;
 
-            message = ""
             if(!nome){
                 message += "nome mancante\n"
             }
@@ -69,13 +80,21 @@ async function requestHandler(request, response) {
                  message += "hobby mancante\n"
             }
 
+            html += `<button type="submit">Invia</button>
+    </form>
+  </main>
+</body>
+</html>`
+
             if(message !== ""){
-                response.writeHead(200, { "Content-Type": "text/plain" });
+                response.writeHead(200, { "Content-Type": "text/html" });
                 response.end(message);
             }else{
-                response.writeHead(200, { "Content-Type": "text/plain" });
+                response.writeHead(200, { "Content-Type": "text/html" });
                 response.end("form compilato in modo correto :)");
             }
+
+
 
     }
     else {
