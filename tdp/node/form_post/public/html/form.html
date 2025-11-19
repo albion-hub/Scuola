@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo Utente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Modulo Informazioni Utente</h1>
+    <form action="/dati" method="POST">
+      
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Inserisci il tuo nome" >
+
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" name="cognome" placeholder="Inserisci il tuo cognome" >
+
+        <label for="matricola">Età:</label>
+        <input type="text" id="matricola" name="matricola" >
+
+        <label for="regione">regione di residenza</label>
+        <select id="regione" name="regione" >
+            <option value="">-- Seleziona --</option>
+            <option value="emilia_romagna">emiglia romagna</option>
+            <option value="veneto">veneto</option>
+            <option value="lazio">lazio</option>
+            <option value="campagnia">campagnia</option>
+        </select>
+
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" placeholder="Inserisci la tua email">
+
+        <label for="telefono">telefono</label>
+        <input type="telefono" id="telefono" name="telefono" placeholder="Inserisci il tuo numero di telefono">
+
+        <label for="richieste">Richieste particolari:</label><br>
+        <textarea id="richieste" name="richieste" rows="12" cols="60" placeholder="Scrivi qui le tue richieste particolari..."></textarea><br>
+        
+        <button type="submit">Invia</button>
+    </form>
+  </main>
+</body>
+</html>
