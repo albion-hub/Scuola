@@ -1,0 +1,14 @@
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\bin\Debug\net8.0\ClassLibraryDB.deps.json
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\bin\Debug\net8.0\ClassLibraryDB.dll
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\bin\Debug\net8.0\ClassLibraryDB.pdb
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\obj\Debug\net8.0\ClassLibraryDB.csproj.AssemblyReference.cache
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\obj\Debug\net8.0\ClassLibraryDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\obj\Debug\net8.0\ClassLibraryDB.AssemblyInfoInputs.cache
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\obj\Debug\net8.0\ClassLibraryDB.AssemblyInfo.cs
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\obj\Debug\net8.0\ClassLibraryDB.csproj.CoreCompileInputs.cache
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\obj\Debug\net8.0\ClassLib.4E9E1B49.Up2Date
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\obj\Debug\net8.0\ClassLibraryDB.dll
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\obj\Debug\net8.0\refint\ClassLibraryDB.dll
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\obj\Debug\net8.0\ClassLibraryDB.pdb
+C:\Users\sshabani\Desktop\WinFormsAppProvaDB\ClassLibraryDB\obj\Debug\net8.0\ref\ClassLibraryDB.dll

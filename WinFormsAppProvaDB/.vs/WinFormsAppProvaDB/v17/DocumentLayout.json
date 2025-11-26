@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sshabani\\Desktop\\WinFormsAppProvaDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC7BBD3-3885-4B22-BF0E-D937D936B1DE}|WinFormsAppProvaDB\\WinFormsAppProvaDB.csproj|c:\\users\\sshabani\\desktop\\winformsappprovadb\\winformsappprovadb\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC7BBD3-3885-4B22-BF0E-D937D936B1DE}|WinFormsAppProvaDB\\WinFormsAppProvaDB.csproj|solutionrelative:winformsappprovadb\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC7BBD3-3885-4B22-BF0E-D937D936B1DE}|WinFormsAppProvaDB\\WinFormsAppProvaDB.csproj|c:\\users\\sshabani\\desktop\\winformsappprovadb\\winformsappprovadb\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DC7BBD3-3885-4B22-BF0E-D937D936B1DE}|WinFormsAppProvaDB\\WinFormsAppProvaDB.csproj|solutionrelative:winformsappprovadb\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB8490EB-592A-4663-BE3F-64FA5F09830E}|ClassLibraryDB\\ClassLibraryDB.csproj|c:\\users\\sshabani\\desktop\\winformsappprovadb\\classlibrarydb\\classdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB8490EB-592A-4663-BE3F-64FA5F09830E}|ClassLibraryDB\\ClassLibraryDB.csproj|solutionrelative:classlibrarydb\\classdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormStart.cs",
+              "DocumentMoniker": "C:\\Users\\sshabani\\Desktop\\WinFormsAppProvaDB\\WinFormsAppProvaDB\\FormStart.cs",
+              "RelativeDocumentMoniker": "WinFormsAppProvaDB\\FormStart.cs",
+              "ToolTip": "C:\\Users\\sshabani\\Desktop\\WinFormsAppProvaDB\\WinFormsAppProvaDB\\FormStart.cs",
+              "RelativeToolTip": "WinFormsAppProvaDB\\FormStart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T08:29:07.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClassDB.cs",
+              "DocumentMoniker": "C:\\Users\\sshabani\\Desktop\\WinFormsAppProvaDB\\ClassLibraryDB\\ClassDB.cs",
+              "RelativeDocumentMoniker": "ClassLibraryDB\\ClassDB.cs",
+              "ToolTip": "C:\\Users\\sshabani\\Desktop\\WinFormsAppProvaDB\\ClassLibraryDB\\ClassDB.cs",
+              "RelativeToolTip": "ClassLibraryDB\\ClassDB.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T07:40:35.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormStart.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\sshabani\\Desktop\\WinFormsAppProvaDB\\WinFormsAppProvaDB\\FormStart.cs",
+              "RelativeDocumentMoniker": "WinFormsAppProvaDB\\FormStart.cs",
+              "ToolTip": "C:\\Users\\sshabani\\Desktop\\WinFormsAppProvaDB\\WinFormsAppProvaDB\\FormStart.cs [Progettazione]",
+              "RelativeToolTip": "WinFormsAppProvaDB\\FormStart.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T07:31:05.866Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
