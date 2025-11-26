@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sshabani\\Desktop\\WinFormsAppProvaDB\\ClassLibraryDB\\ClassLibraryDB.csproj": {}
+    "C:\\Users\\sshabani\\Desktop\\Scuola\\WinFormsAppProvaDB\\ClassLibraryDB\\ClassLibraryDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sshabani\\Desktop\\WinFormsAppProvaDB\\ClassLibraryDB\\ClassLibraryDB.csproj": {
+    "C:\\Users\\sshabani\\Desktop\\Scuola\\WinFormsAppProvaDB\\ClassLibraryDB\\ClassLibraryDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sshabani\\Desktop\\WinFormsAppProvaDB\\ClassLibraryDB\\ClassLibraryDB.csproj",
+        "projectUniqueName": "C:\\Users\\sshabani\\Desktop\\Scuola\\WinFormsAppProvaDB\\ClassLibraryDB\\ClassLibraryDB.csproj",
         "projectName": "ClassLibraryDB",
-        "projectPath": "C:\\Users\\sshabani\\Desktop\\WinFormsAppProvaDB\\ClassLibraryDB\\ClassLibraryDB.csproj",
+        "projectPath": "C:\\Users\\sshabani\\Desktop\\Scuola\\WinFormsAppProvaDB\\ClassLibraryDB\\ClassLibraryDB.csproj",
         "packagesPath": "C:\\Users\\sshabani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sshabani\\Desktop\\WinFormsAppProvaDB\\ClassLibraryDB\\obj\\",
+        "outputPath": "C:\\Users\\sshabani\\Desktop\\Scuola\\WinFormsAppProvaDB\\ClassLibraryDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

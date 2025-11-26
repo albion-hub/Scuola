@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsAppProvaDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52688125ca8a34731b8db76dab6cb0ab60fedfaf")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinFormsAppProvaDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinFormsAppProvaDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

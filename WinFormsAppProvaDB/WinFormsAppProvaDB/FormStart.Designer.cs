@@ -41,14 +41,15 @@
             dataGridViewClienti.RowHeadersWidth = 51;
             dataGridViewClienti.Size = new Size(658, 254);
             dataGridViewClienti.TabIndex = 0;
+            dataGridViewClienti.CellContentClick += dataGridViewClienti_CellContentClick;
             // 
-            // Form1
+            // FormStart
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(dataGridViewClienti);
-            Name = "Form1";
+            Name = "FormStart";
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewClienti).EndInit();
