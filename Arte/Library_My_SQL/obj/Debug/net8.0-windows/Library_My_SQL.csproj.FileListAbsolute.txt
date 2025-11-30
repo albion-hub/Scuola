@@ -1,0 +1,15 @@
+C:\Users\albio\Desktop\Arte\Library_My_SQL\bin\Debug\net8.0-windows\Library_My_SQL.dll.config
+C:\Users\albio\Desktop\Arte\Library_My_SQL\bin\Debug\net8.0-windows\Library_My_SQL.deps.json
+C:\Users\albio\Desktop\Arte\Library_My_SQL\bin\Debug\net8.0-windows\Library_My_SQL.dll
+C:\Users\albio\Desktop\Arte\Library_My_SQL\bin\Debug\net8.0-windows\Library_My_SQL.pdb
+C:\Users\albio\Desktop\Arte\Library_My_SQL\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\albio\Desktop\Arte\Library_My_SQL\obj\Debug\net8.0-windows\Library_My_SQL.csproj.AssemblyReference.cache
+C:\Users\albio\Desktop\Arte\Library_My_SQL\obj\Debug\net8.0-windows\Library_My_SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\albio\Desktop\Arte\Library_My_SQL\obj\Debug\net8.0-windows\Library_My_SQL.AssemblyInfoInputs.cache
+C:\Users\albio\Desktop\Arte\Library_My_SQL\obj\Debug\net8.0-windows\Library_My_SQL.AssemblyInfo.cs
+C:\Users\albio\Desktop\Arte\Library_My_SQL\obj\Debug\net8.0-windows\Library_My_SQL.csproj.CoreCompileInputs.cache
+C:\Users\albio\Desktop\Arte\Library_My_SQL\obj\Debug\net8.0-windows\Library_.711E242A.Up2Date
+C:\Users\albio\Desktop\Arte\Library_My_SQL\obj\Debug\net8.0-windows\Library_My_SQL.dll
+C:\Users\albio\Desktop\Arte\Library_My_SQL\obj\Debug\net8.0-windows\refint\Library_My_SQL.dll
+C:\Users\albio\Desktop\Arte\Library_My_SQL\obj\Debug\net8.0-windows\Library_My_SQL.pdb
+C:\Users\albio\Desktop\Arte\Library_My_SQL\obj\Debug\net8.0-windows\ref\Library_My_SQL.dll

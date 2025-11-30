@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arte", "Arte\Arte.csproj", "{E524D12C-8544-4D3A-BCAE-582FEC270F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library_My_SQL", "Library_My_SQL\Library_My_SQL.csproj", "{4E1B0E1E-55AE-411F-A562-242F32E43254}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementi di soluzione", "Elementi di soluzione", "{9DF70304-0A22-CE1E-AA12-D5904EE55694}"
+	ProjectSection(SolutionItems) = preProject
+		Library_My_SQL\Arte_Creazione_Database_Tabelle.sql = Library_My_SQL\Arte_Creazione_Database_Tabelle.sql
+		Library_My_SQL\Arte_Popola_Database.sql = Library_My_SQL\Arte_Popola_Database.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E524D12C-8544-4D3A-BCAE-582FEC270F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E524D12C-8544-4D3A-BCAE-582FEC270F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E524D12C-8544-4D3A-BCAE-582FEC270F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E524D12C-8544-4D3A-BCAE-582FEC270F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1B0E1E-55AE-411F-A562-242F32E43254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1B0E1E-55AE-411F-A562-242F32E43254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1B0E1E-55AE-411F-A562-242F32E43254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1B0E1E-55AE-411F-A562-242F32E43254}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8DBFB42-3315-4982-9EFA-BFBF58E2FDE3}
+	EndGlobalSection
+EndGlobal

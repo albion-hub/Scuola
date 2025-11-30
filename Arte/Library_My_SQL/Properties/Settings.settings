@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Library_My_SQL.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="connect" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server=localhost;Uid=root;Pwd=''</Value>
+    </Setting>
+    <Setting Name="connect_db_arte" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server=localhost;Database=Arte;Uid=root;Pwd=''</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

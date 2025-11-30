@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\albio\\Desktop\\Arte\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1B0E1E-55AE-411F-A562-242F32E43254}|Library_My_SQL\\Library_My_SQL.csproj|c:\\users\\albio\\desktop\\arte\\library_my_sql\\class_sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1B0E1E-55AE-411F-A562-242F32E43254}|Library_My_SQL\\Library_My_SQL.csproj|solutionrelative:library_my_sql\\class_sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E524D12C-8544-4D3A-BCAE-582FEC270F8B}|Arte\\Arte.csproj|c:\\users\\albio\\desktop\\arte\\arte\\quadri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E524D12C-8544-4D3A-BCAE-582FEC270F8B}|Arte\\Arte.csproj|solutionrelative:arte\\quadri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E524D12C-8544-4D3A-BCAE-582FEC270F8B}|Arte\\Arte.csproj|C:\\Users\\albio\\Desktop\\Arte\\arte\\quadri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E524D12C-8544-4D3A-BCAE-582FEC270F8B}|Arte\\Arte.csproj|solutionrelative:arte\\quadri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E524D12C-8544-4D3A-BCAE-582FEC270F8B}|Arte\\Arte.csproj|c:\\users\\albio\\desktop\\arte\\arte\\artisti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E524D12C-8544-4D3A-BCAE-582FEC270F8B}|Arte\\Arte.csproj|solutionrelative:arte\\artisti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E524D12C-8544-4D3A-BCAE-582FEC270F8B}|Arte\\Arte.csproj|C:\\Users\\albio\\Desktop\\Arte\\arte\\artisti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E524D12C-8544-4D3A-BCAE-582FEC270F8B}|Arte\\Arte.csproj|solutionrelative:arte\\artisti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E524D12C-8544-4D3A-BCAE-582FEC270F8B}|Arte\\Arte.csproj|c:\\users\\albio\\desktop\\arte\\arte\\arte.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E524D12C-8544-4D3A-BCAE-582FEC270F8B}|Arte\\Arte.csproj|solutionrelative:arte\\arte.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quadri.cs",
+              "DocumentMoniker": "C:\\Users\\albio\\Desktop\\Arte\\Arte\\Quadri.cs",
+              "RelativeDocumentMoniker": "Arte\\Quadri.cs",
+              "ToolTip": "C:\\Users\\albio\\Desktop\\Arte\\Arte\\Quadri.cs",
+              "RelativeToolTip": "Arte\\Quadri.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T15:55:30.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Quadri.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\albio\\Desktop\\Arte\\Arte\\Quadri.cs",
+              "RelativeDocumentMoniker": "Arte\\Quadri.cs",
+              "ToolTip": "C:\\Users\\albio\\Desktop\\Arte\\Arte\\Quadri.cs [Progettazione]",
+              "RelativeToolTip": "Arte\\Quadri.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T15:16:36.967Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Arte",
+              "DocumentMoniker": "C:\\Users\\albio\\Desktop\\Arte\\Arte\\Arte.csproj",
+              "RelativeDocumentMoniker": "Arte\\Arte.csproj",
+              "ToolTip": "C:\\Users\\albio\\Desktop\\Arte\\Arte\\Arte.csproj",
+              "RelativeToolTip": "Arte\\Arte.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-30T14:54:40.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Artisti.cs",
+              "DocumentMoniker": "C:\\Users\\albio\\Desktop\\Arte\\Arte\\Artisti.cs",
+              "RelativeDocumentMoniker": "Arte\\Artisti.cs",
+              "ToolTip": "C:\\Users\\albio\\Desktop\\Arte\\Arte\\Artisti.cs",
+              "RelativeToolTip": "Arte\\Artisti.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwB8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T14:14:17.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class_SQL.cs",
+              "DocumentMoniker": "C:\\Users\\albio\\Desktop\\Arte\\Library_My_SQL\\Class_SQL.cs",
+              "RelativeDocumentMoniker": "Library_My_SQL\\Class_SQL.cs",
+              "ToolTip": "C:\\Users\\albio\\Desktop\\Arte\\Library_My_SQL\\Class_SQL.cs",
+              "RelativeToolTip": "Library_My_SQL\\Class_SQL.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAUwIMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T13:52:03.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Artisti.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\albio\\Desktop\\Arte\\Arte\\Artisti.cs",
+              "RelativeDocumentMoniker": "Arte\\Artisti.cs",
+              "ToolTip": "C:\\Users\\albio\\Desktop\\Arte\\Arte\\Artisti.cs [Progettazione]",
+              "RelativeToolTip": "Arte\\Artisti.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T13:47:51.514Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
