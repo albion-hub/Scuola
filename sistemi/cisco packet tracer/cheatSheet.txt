@@ -59,4 +59,30 @@ RIP:
 	Router(config-router)#no auto-summary 
 	Router(config-router)#network 10.0.0.0    (subnet LAN)
 	Router(config-router)#default-information originate (default route)
-	Router(config-router)#passive-interface fa1/0					-> per gli host che non devono ricevere i pacchetti rip
+	Router(config-router)#passive-interface fa1/0								-> per gli host che non devono ricevere i pacchetti rip
+
+static NAT
+- ip nat inside (interfacce private)
+- ip nat outside (interfacce publiche)
+
+- ip nat inside source static 10.0.0.10 100.0.0.10   |   ()
+
+- show ip nat translation   |   (mostra la NAT table)
+
+### access list
+- ip access-list standard [nome eticheta]
+- permit [ip] [well carl]            
+- permit host [ip]              
+- deny any 
+
+- ip nat inside source list [nome eticheta] interface_publica [int] overload 
+
+### dynamic NAT
+- ip nat pool [eticheta] [gruppi ip publici]  netmask [mask]
+- ip nat inside source list [eticheta] pool [eticheta] 
+
+### port forwarding 
+- ip nat inside source static tcp [inside ip] [port] [ip publico] [outside port]
+
+
+

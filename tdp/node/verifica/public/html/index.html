@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo Utente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Modulo Consulenza Gratuita</h1>
+    <form action="/dati" method="post">
+      
+      <label for="nome">Nome e Cognome</label>
+      <input type="text" id="nome" name="nome" placeholder="Inserisci il tuo nome" >
+      <input type="text" id="cognome" name="cognome" placeholder="Inserisci il tuo cognome" >
+
+      <label for="tel">Numero di telefono:</label>
+    <div class="tel-container">
+    <input type="number" id="pre" name="pre" >
+    <input type="number" id="tel" name="tel" >
+    </div>
+
+    
+      
+      <label for="email">E-mail:</label>
+      <input type="text" id="email" name="email" min="0" max="120" >
+
+      <label for="organinnazione">Nome della comagnia/organizzazione:</label>
+      <input type="text" id="organinnazione" name="organinnazione" min="0" max="120" >
+    
+      <label for="consultazione">Consultazione in questo ambito:</label>
+      <select id="consultazione" name="consultazione" >
+        <option value="">-- Seleziona --</option>
+        <option value="celibe_nubile">Celibe / Nubile</option>
+        <option value="coniugato_a">Coniugato / Coniugata</option>
+        <option value="vedovo_a">Vedovo / Vedova</option>
+        <option value="divorziato_a">Divorziato / Divorziata</option>
+      </select>
+
+      <label for="data">Seleziona la data</label>
+      <input type="date" id="data" name="data">
+
+      <button type="submit">Invia</button>
+      <button type="reset">Reset</button>
+    </form>
+  </main>
+</body>
+</html>
