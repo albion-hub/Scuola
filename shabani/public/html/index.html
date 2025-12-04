@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo Utente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Modulo Informazioni Utente</h1>
+    <form action="/dati" method="POST">
+        
+        <label for="data">data di nascita</label>
+        <input type="date" id="data" name="data">
+
+        <label for="nome">Nome:</label>
+        <div class="name-container">
+            <input type="text" id="nome" name="nome" placeholder="Inserisci il tuo nome" >
+            <input type="text" id="cognome" name="cognome" placeholder="Inserisci il tuo cognome" >
+        </div>
+
+        <label for="altezza">altezza</label>
+        <input type="number" id="altezza" name="altezza" placeholder="Inserisci la tua altezza">
+
+        <label for="pesso">pesso</label>
+        <input type="number" id="pesso" name="pesso" placeholder="Inserisci il tuo pesso">
+
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" placeholder="Inserisci la tua email">
+
+        <fieldset>
+            <legend>i miei obbietivi principali sono:</legend>
+            <label><input type="checkbox" name="obbietivo" value="peso" >perdina di peso</label>
+            <label><input type="checkbox" name="obbietivo" value="musculatura" >guadagno musculatura</label>
+            <label><input type="checkbox" name="obbietivo" value="forza" >guadagno di forza</label>
+            <label><input type="checkbox" name="obbietivo" value="atletiche" >prestazioni atletiche</label>
+            <div style="display: flex;flex-direction: row; gap: 10px;">
+                <label>altro</label><input type="text" name="obbietivo" value="" style="width: 100px;"></label>
+            </div>
+          </fieldset>
+        
+        <label for="richieste">Richieste particolari:</label><br>
+        <textarea id="richieste" name="richieste" rows="12" cols="60" placeholder="Scrivi qui le tue richieste particolari..."></textarea><br>
+        
+        <button type="submit">Invia</button>
+        <button type="reset">reset</button>
+    </form>
+  </main>
+</body>
+</html>
